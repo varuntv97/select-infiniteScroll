@@ -3,10 +3,10 @@ import { ref } from 'vue'
 import InfiniteScroll from './components/InfiniteScroll.vue'
 
 const selectedItem = ref()
-const recordsToFetch = ref(20)
+const numberOfRecordsToFetch = ref(20)
 
 // You can set the API route here, and additionally, you can define parameters.
-const dataUrl = `https://random-data-api.com/api/v2/users?size=${recordsToFetch.value}`
+const dataUrl = `https://random-data-api.com/api/v2/users?size=${numberOfRecordsToFetch.value}`
 
 </script>
 
