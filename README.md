@@ -1,6 +1,6 @@
 # Vuetify Autocomplete Infinite Scroll
 
-This is a Vuetify-based Autocomplete Infinite Scroll project. It enables real-time data retrieval with infinite scroll for smooth navigation through extensive datasets.
+This is a Vuetify-based Autocomplete Infinite Scroll project. It enables real-time data retrieval with infinite scroll for smooth navigation through extensive datasets. It loads data incrementally as you scroll, rather than all at once.
 
 # Vue 3 + Vite
 
